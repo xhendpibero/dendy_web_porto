@@ -3,6 +3,11 @@
  * In development, returns the path as-is. In production, adds the basePath prefix.
  */
 export const getImgPath = (path: string): string => {
+  // In development, always return path as-is
+  if (typeof window !== "undefined" && window.location.hostname === "localhost") {
+    return path;
+  }
+
   const basePath = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
   if (!basePath) {

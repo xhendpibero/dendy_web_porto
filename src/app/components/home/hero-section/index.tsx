@@ -3,7 +3,7 @@ import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 import { usePortfolioData } from "@/utils/hooks";
 
-const index = () => {
+const HeroSection = () => {
   const { data, loading } = usePortfolioData();
 
   if (loading) {
@@ -30,7 +30,7 @@ const index = () => {
           <div className="flex flex-col gap-4 md:gap-7 max-w-2xl">
             <div>
               <div className="flex items-center gap-8">
-                <h1>I'm {name.split(" ")[0]}</h1>
+                <h1>I&apos;m {name.split(" ")[0]}</h1>
                 <div className="wave">
                   <Image
                     src={getImgPath("/images/home/banner/wave-icon.svg")}
@@ -48,7 +48,7 @@ const index = () => {
             </p>
           </div>
           <Image
-            src={getImgPath("/images/home/banner/dendysaptoadi2.jpg")}
+            src={getImgPath("/images/home/banner/dendysaptoadi2.png")}
             alt="banner-img"
             width={685}
             height={650}
@@ -58,7 +58,7 @@ const index = () => {
       </div>
       <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
         <Image
-          src={getImgPath("/images/home/banner/dendysaptoadi2.jpg")}
+          src={getImgPath("/images/home/banner/dendysaptoadi2.png")}
           alt="banner-img"
           width={685}
           height={650}
@@ -69,4 +69,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default HeroSection;

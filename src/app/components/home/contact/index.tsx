@@ -8,6 +8,8 @@ import { usePortfolioData } from "@/utils/hooks";
 const Contact = () => {
   const { data, loading } = usePortfolioData();
   const [submitted, setSubmitted] = useState(false);
+  const [isSubmitting, setIsSubmitting] = useState(false);
+  const [error, setError] = useState<string | null>(null);
   const [formData, setFormData] = useState({
     name: "",
     number: "",
@@ -16,42 +18,70 @@ const Contact = () => {
   });
 
   const reset = () => {
-    formData.name = "";
-    formData.number = "";
-    formData.email = "";
-    formData.message = "";
+    setFormData({
+      name: "",
+      number: "",
+      email: "",
+      message: "",
+    });
   };
 
-  const handleSubmit = async (e: any) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    setIsSubmitting(true);
+    setError(null);
+    setSubmitted(false);
 
-    const email = data?.contact?.email || "dendysaptoadi160@gmail.com";
+    const recipientEmail = data?.contact?.email || "dendysaptoadi160@gmail.com";
 
-    fetch(`https://formsubmit.co/ajax/${email}`, {
-      method: "POST",
-      headers: { "Content-type": "application/json" },
-      body: JSON.stringify({
-        name: formData.name,
-        number: formData.number,
-        email: formData.email,
-        message: formData.message,
-      }),
-    })
-      .then((response) => response.json())
-      .then((result) => {
-        setSubmitted(result.success);
-        reset();
-      })
-      .catch((error) => {
-        console.log(error.message);
+    try {
+      const response = await fetch(`https://formsubmit.co/ajax/${encodeURIComponent(recipientEmail)}`, {
+        method: "POST",
+        headers: { 
+          "Content-Type": "application/json",
+          "Accept": "application/json"
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          phone: formData.number,
+          email: formData.email,
+          message: formData.message,
+          _subject: `Portfolio Contact Form - Message from ${formData.name}`,
+          _template: "box",
+          _captcha: "false",
+        }),
       });
+
+      const result = await response.json();
+
+      if (result.success) {
+        setSubmitted(true);
+        reset();
+        // Hide success message after 5 seconds
+        setTimeout(() => {
+          setSubmitted(false);
+        }, 5000);
+      } else {
+        setError(result.message || "Failed to send message. Please try again.");
+      }
+    } catch (err) {
+      console.error("Error submitting form:", err);
+      setError("An error occurred while sending your message. Please try again or contact me directly via email.");
+    } finally {
+      setIsSubmitting(false);
+    }
   };
-  const handleChange = (e: any) => {
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target;
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
     }));
+    // Clear error when user starts typing
+    if (error) {
+      setError(null);
+    }
   };
 
   if (loading) {
@@ -140,26 +170,32 @@ const Contact = () => {
                     rows={2}
                   />
                 </div>
+                {error && (
+                  <div className="flex items-start gap-2 p-4 bg-red-50 border border-red-200 rounded-lg">
+                    <span className="text-red-600 font-bold">⚠</span>
+                    <p className="text-red-600 text-sm">{error}</p>
+                  </div>
+                )}
                 {submitted && (
-                  <div className="flex items-center gap-2">
+                  <div className="flex items-center gap-2 p-4 bg-green-50 border border-green-200 rounded-lg">
                     <Image
                       src={getImgPath("/images/icon/success-icon.svg")}
                       alt="success-icon"
                       width={30}
                       height={30}
                     />
-                    <p className="text-secondary">
-                      Great!!! Email has been Successfully Sent. We will get in
-                      touch asap.
+                    <p className="text-green-700">
+                      Great! Your message has been successfully sent. I will get in touch with you as soon as possible.
                     </p>
                   </div>
                 )}
                 <button
                   type="submit"
-                  className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group"
+                  disabled={isSubmitting}
+                  className="relative overflow-hidden cursor-pointer w-fit py-2 sm:py-3 md:py-5 px-4 sm:px-5 md:px-7 border border-primary rounded-full group disabled:opacity-50 disabled:cursor-not-allowed"
                 >
                   <span className="relative z-10 text-xl font-medium text-primary group-hover:text-white transition-colors duration-300">
-                    Send Now
+                    {isSubmitting ? "Sending..." : "Send Now"}
                   </span>
                 </button>
               </div>

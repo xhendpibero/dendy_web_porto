@@ -4,10 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev --turbopack",
-    "build": "next build",
-    "export": "next build",
+    "build": "cross-env NEXT_PUBLIC_BASE_PATH= next build",
+    "build:root": "cross-env NEXT_PUBLIC_BASE_PATH= next build",
+    "export": "npm run build",
+    "export:root": "npm run build:root",
     "start": "npx serve@latest out",
     "preview": "npx serve@latest out",
+    "preview:root": "npm run build:root && npx serve@latest out",
     "lint": "next lint"
   },
   "dependencies": {
@@ -23,6 +26,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "cross-env": "^10.1.0",
     "eslint": "^9",
     "eslint-config-next": "15.3.5",
     "tailwindcss": "^4",
