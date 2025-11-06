@@ -3,6 +3,7 @@ import { getImgPath } from "@/utils/image";
 import Image from "next/image";
 import { usePortfolioData } from "@/utils/hooks";
 import { getAllSkills } from "@/utils/portfolio";
+import { getSkillIconPath, isExternalIcon } from "@/utils/skill-icons";
 
 const EducationSkills = () => {
   const { data, loading } = usePortfolioData();
@@ -23,18 +24,6 @@ const EducationSkills = () => {
 
   const education = data?.education || [];
   const allSkills = data?.skills ? getAllSkills(data.skills) : [];
-
-  // Map skill names to icon paths (you can expand this mapping)
-  const getSkillIcon = (skillName: string) => {
-    const iconMap: Record<string, string> = {
-      "Figma": "/images/home/education-skill/figma-icon.svg",
-      "Photoshop": "/images/home/education-skill/photoshop-icon.svg",
-      "Sketch": "/images/home/education-skill/sketch-icon.svg",
-      "Adobe XD": "/images/home/education-skill/adobe-icon.svg",
-      "Framer": "/images/home/education-skill/framer-icon.svg",
-    };
-    return iconMap[skillName] || "/images/home/education-skill/figma-icon.svg";
-  };
 
   return (
     <section>
@@ -78,12 +67,35 @@ const EducationSkills = () => {
                       className="p-4 xl:p-6 border border-softGray rounded-lg flex flex-col gap-5 sm:gap-10 items-center justify-between"
                     >
                       <div className="flex flex-col items-center gap-5">
-                        <Image
-                          src={getImgPath(getSkillIcon(skill.name))}
-                          alt={skill.name}
-                          width={70}
-                          height={70}
-                        />
+                        {(() => {
+                          const iconPath = getSkillIconPath(skill.name);
+                          const isExternal = isExternalIcon(iconPath);
+                          
+                          return isExternal ? (
+                            // External CDN icon
+                            <img
+                              src={iconPath}
+                              alt={skill.name}
+                              width={70}
+                              height={70}
+                              className="object-contain"
+                              loading="lazy"
+                              onError={(e) => {
+                                // Fallback to default icon on error
+                                (e.target as HTMLImageElement).src = getImgPath("/images/home/education-skill/figma-icon.svg");
+                              }}
+                            />
+                          ) : (
+                            // Local icon
+                            <Image
+                              src={getImgPath(iconPath)}
+                              alt={skill.name}
+                              width={70}
+                              height={70}
+                              className="object-contain"
+                            />
+                          );
+                        })()}
                         <p className="text-black font-normal text-center text-sm">{skill.name}</p>
                       </div>
                       <div className="flex gap-1">

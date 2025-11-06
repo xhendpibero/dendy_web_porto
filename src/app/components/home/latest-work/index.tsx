@@ -47,42 +47,54 @@ const LatestWork = () => {
                         height={414}
                         className="rounded-lg w-full h-full object-cover"
                       />
-                      <Link
-                        onClick={(e) => e.preventDefault()}
-                        href={`#${project.slug}`}
-                        className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
-                      >
-                        <span className="flex justify-center items-center p-5 w-full">
-                          <svg
-                            width="65"
-                            height="64"
-                            viewBox="0 0 65 64"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <rect
-                              x="0.333374"
-                              width="64"
+                      {project.url && (
+                        <a
+                          href={project.url}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className="absolute top-0 left-0 backdrop-blur-xs bg-primary/15 w-full h-full hidden group-hover:flex rounded-lg"
+                        >
+                          <span className="flex justify-center items-center p-5 w-full">
+                            <svg
+                              width="65"
                               height="64"
-                              rx="32"
-                              fill="#FE4300"
-                            />
-                            <path
-                              d="M25.6667 25.3333H39M39 25.3333V38.6666M39 25.3333L25.6667 38.6666"
-                              stroke="#FFFF"
-                              strokeWidth="2"
-                              strokeLinecap="round"
-                              strokeLinejoin="round"
-                            />
-                          </svg>
-                        </span>
-                      </Link>
+                              viewBox="0 0 65 64"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <rect
+                                x="0.333374"
+                                width="64"
+                                height="64"
+                                rx="32"
+                                fill="#FE4300"
+                              />
+                              <path
+                                d="M25.6667 25.3333H39M39 25.3333V38.6666M39 25.3333L25.6667 38.6666"
+                                stroke="#FFFF"
+                                strokeWidth="2"
+                                strokeLinecap="round"
+                                strokeLinejoin="round"
+                              />
+                            </svg>
+                          </span>
+                        </a>
+                      )}
                     </div>
                     <div className="flex flex-col gap-0 xl:gap-2">
                       <div className="flex items-center justify-between">
-                        <Link href={`#${project.slug}`}>
+                        {project.url ? (
+                          <a
+                            href={project.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="hover:text-primary transition-colors"
+                          >
+                            <h5>{project.title}</h5>
+                          </a>
+                        ) : (
                           <h5>{project.title}</h5>
-                        </Link>
+                        )}
                         <Image
                           src={getImgPath("/images/icon/right-arrow-icon.svg")}
                           alt="right-arrow-icon"

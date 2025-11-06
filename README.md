@@ -118,7 +118,7 @@ Primary colors are defined in `src/app/globals.css`:
 ### Images
 
 Replace images in `public/images/` directory:
-- Banner image: `public/images/home/banner/dendysaptoadi.jpg`
+- Banner image: `public/images/home/banner/dendysaptoadi2.png`
 - Work images: `public/images/work/work-img-*.jpg`
 
 ## 🔧 Technologies Used

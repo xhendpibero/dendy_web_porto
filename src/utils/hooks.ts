@@ -24,14 +24,17 @@ export function usePortfolioData() {
         const portfolioData = await fetchPortfolioData();
         if (isMounted) {
           setData(portfolioData);
+          setLoading(false);
         }
       } catch (err) {
+        console.error("Error in usePortfolioData:", err);
         if (isMounted) {
           setError(err instanceof Error ? err : new Error("Failed to load portfolio data"));
-        }
-      } finally {
-        if (isMounted) {
           setLoading(false);
+          // Still set data to prevent infinite loading
+          // fetchPortfolioData returns fallback data, so this shouldn't happen
+          const fallbackData = await fetchPortfolioData();
+          setData(fallbackData);
         }
       }
     };

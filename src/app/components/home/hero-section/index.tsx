@@ -48,7 +48,7 @@ const index = () => {
             </p>
           </div>
           <Image
-            src={getImgPath("/images/home/banner/dendysaptoadi.jpg")}
+            src={getImgPath("/images/home/banner/dendysaptoadi2.jpg")}
             alt="banner-img"
             width={685}
             height={650}
@@ -58,7 +58,7 @@ const index = () => {
       </div>
       <div className="absolute right-0 top-0 hidden h-auto w-1/2 lg:block 2xl:h-171.5 2xl:w-187.5">
         <Image
-          src={getImgPath("/images/home/banner/dendysaptoadi.jpg")}
+          src={getImgPath("/images/home/banner/dendysaptoadi2.jpg")}
           alt="banner-img"
           width={685}
           height={650}
