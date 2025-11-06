@@ -1,0 +1,169 @@
+Dendy Sapto Adi
+ +62 896-0258-9896 — # dendysaptoadi160@gmail.com — ï linkedin.com/in/dendysaptoadi — § github.com/xhendpibero
+Summary — With over 7 years of experience, I specialize in frameworks like NextJS, Angular, and React. I am passionate
+about web and mobile design and thrive on improving my skills and solving complex problems. As a strong communicator, I
+work effectively with clients and team members, and my fluency in English ensures clear and effective communication.
+Skills
+Web Frontend Angular, React, Nuxt, NextJS, SolidJS
+Mobile Frontend React Native, Ionic, Flutter
+Languages Javascript, Python, PHP, Scala, VB/C#.Net
+UI/UX Figma, Framer, Web Flow, Adobe XD
+Testing Pytest, Docker, CircleCI, Jenkins, Karma
+Infrastructure Github, Gitlab, AWS, Azure, Self-Hosting
+Experience
+Torre.ai
+Jun 2025 – Present
+Product Engineer - Remote, California, USA
+Product: Subtorres(Nuxt4, Scala, Redis)
+–Developed and launched a new user-generated content (UGC) page with a load time of less than 200 ms, improving the
+user experience and SEO performance through schema optimization and CDN-based asset delivery.
+–Optimized performance of legacy front-end code through targeted CSS and layout improvements, leading to faster
+rendering, reduced blocking time, and improved overall Core Web Vitals.
+–Implemented advanced SEO strategies and managed Google Search Console with schema markup, internal linking, and
+Cloudinary image optimization to increase organic visibility and keyword ranking.
+–Designed scalable and modular web applications for Emma, the AI recruitment platform, using Vue.js, Nuxt, and SolidJS
+to support microfrontend integration and enterprise-grade performance.
+–Collaborated with cross-functional teams to debug, troubleshoot, and optimize backend APIs, ensuring high-quality
+deliverables, consistent code standards, and production stability across environments.
+OCA Indonesia by Telkom
+Mar 2022 – Mar 2025
+Senior Frontend Engineer (SFE) - Gambir, Central Jakarta
+Main Product: OCA AI (Angular 19)
+–Led the frontend development of the Chatbot AI, culminating in the successful deployment of version 2.0 to production.
+–Enhanced functionality and security, resulting in a 90% reduction in operational costs and a 10x increase in speed
+through updates, new features, and bug fixes. Developed advanced features such as push notifications, PDF/XLSX report
+downloads, and interactive elements using Intro.js and Rappid.js for a canvas editor.
+–Achieved 100% test coverage using Karma-Angular testing, ensuring robust and reliable code with AI Plus integrated
+with Telkom LLM, expanding its functionality and quality.
+Client: Dashboard Monitoring
+–Developed 8 dashboard and advanced features such as Chart.JS, PDF/XLSX report downloads.
+–Achieved ±95% test coverage using Karma-Angular testing, ensuring robust and reliable code.
+Indivara Group
+Apr 2022 – Nov 2022
+Technical Product Specialist (Fullstack) - Kelapa Gading, North Jakarta
+Techstack: React and Java
+Client: United Overseas Bank Limited (UOB) Singapore - Wealth Management System
+–Managed internal applications with TypeScript, React, and Java, focusing on creating a highly responsive and
+user-friendly interface to enhance client interactions and user experience.
+Client: Buysmart Summarecon Dashboard - Admin Console Development
+–Designed applications for the Buysmart Summarecon e-commerce platform using Softslate, ZKoss, and PostgreSQL,
+increasing user engagement by 50%.
+Client: Peraa Dashboard - Admin Console Integration
+–Developed a comprehensive admin console using the ZKoss Java Framework. Ensured seamless integration and efficient
+data management to support smooth operational workflows.
+Barito Technologies Group
+Sep 2019 – Apr 2022
+Associate Software Engineer (Frontend) - Grogol Petamburan, West Jakarta
+Techstack: React, React Native, Angular
+Product: Tenant Dashboard - Admin Console for Cakram Omnichannel
+–Developed an admin console using React and Prisma, focusing on creating a responsive and intuitive user interface.
+Product: Cakram Omnichannel - Mobile App CRM Software
+–Development of a mobile CRM application using React Native and implemented responsive design principles.
+Client: PT. Prudential Life Assurance, PULSE - Mobile App
+–Managed and developed a mobile application using React Native, improving project delivery speed by 2x through
+effective use of Scrum methodology for flexible task management.
+–Contributed to the development of a complex mobile B2B lead management application, resulting in a 40% increase in
+lead conversion rates.
+Client: PT. Prudential Life Assurance, Pruleads Indonesia - Mobile App
+–Developed a mobile app using Ionic Framework (React.js), focusing on enhancing user interaction and functionality.
+Ensured responsive design and cross-platform compatibility, with feature Charts, Download Reports in PDF.
+Client: PT. Prudential Life Assurance, PULSEHub - Admin Console for PULSE
+–Developed an admin console using AngularJS, optimizing data handling and user interface design. Added advanced
+features to streamline administrative tasks and improve efficiency by 15%.
+Client: PT. Prudential Life Assurance, PRUHub - Admin Console for PRULeads
+–Developed an admin console using AngularJS and Bootstrap, enhancing data management and user interface
+functionality, creating a seamless UI/UX with responsive design, improving efficiency by 20%.
+Podobeli Djital Indonesia
+May 2019 – Oct 2019
+Junior Software Programmer (Fullstack) - Gunung Putri, Bogor
+Product: Podobeli ID - Marketplace (CodeIgniter)
+–Developed a comprehensive marketplace website and its admin console using PHP, MySQL, JavaScript, CSS, and HTML
+with a responsive design based on Bootstrap.
+PT. Mass Rapid Transit Jakarta
+Feb 2018 – May 2018
+Junior Software Engineer (Internship) - Menteng, Central Jakarta
+Techstack: Laravel
+Support: Guest Book Application
+–Developed a digital guest book system using Vanilla PHP and Bootstrap to record and schedule meetings, improving
+visitor management efficiency.
+Support: PPTracking Application
+–Assisted in developing an application for tracking procurement documents between divisions using Laravel, enhancing
+document management and workflow.
+Support: Internal Web Support
+–Provided support for internal web applications, ensuring smooth operation and user satisfaction.
+Education
+SMKN 24 Jakarta
+2016-2019
+Diploma of Software Engineers
+Web Development; Mobile App Development
+Womanium Quantum Computing
+2023-2024
+Diploma of Quantum Computing
+Quantum Computing; Quantum Programming
+Certifications
+BNSP Certificate of Competence
+QCobalt Diploma of Quantum Annealing
+Classiq Certified Complete Challenge
+Pennylane Certified Complete Challenge
+QBronze Diploma of Quantum Computing
+QMercury Diploma of Quantum Key Distribution
+QZinc Diploma of Quantum Error Correction
+QNickel Diploma of Quantum Computing & Programming
+Projects/Volunteer
+LifeBonder
+Jan 2025 – Present
+Angular Developer Specialist (Fullstack)
+Remote, Denmark
+–Led the development of an initial admin dashboard using Angular with NG-Zorro and C#.NET, improving the user
+interface and functionality.
+–Implemented interceptors and route rules to enhance page security, effectively preventing unauthorized access, and
+ensuring data protection.
+Tako
+Jul 2023 – Nov 2024
+Full-stack Developer (React, NextJS)
+Remote, Tangerang
+–Using Next.js to build fast, scalable, and SEO-friendly front-end applications, ensuring a seamless user experience.
+–Optimized back-end systems, implementing GraphQL APIs for efficient data management and API integrations.
+–Managed Figma designs into functional and user-friendly features, enhancing the overall user interface.
+–Engaged with cross-functional teams using Lark to ensure effective communication and project alignment.
+
+
+Summary
+Torre.ai (California, USA, 2025–Present)
+Product Engineer – Built and optimized scalable web apps for recruitment platforms. Improved Core Web Vitals and SEO, managed Cloudinary optimization, and implemented microfrontend architecture with Nuxt and SolidJS.
+
+OCA Indonesia by Telkom (Jakarta, 2022–2025)
+Senior Frontend Engineer – Led Chatbot AI (Angular 19) frontend revamp. Enhanced performance, security, and UI responsiveness. Achieved 90% cost reduction and 10x speed improvement with AI-integrated testing.
+
+Indivara Group (Singapore Client, 2022)
+Technical Product Specialist – Managed Wealth Management and eCommerce systems (React, Java). Built dashboards and admin consoles to improve engagement and system efficiency.
+
+Barito Technologies Group (Jakarta, 2019–2022)
+Associate Software Engineer – Developed Omnichannel CRM systems and mobile apps (React Native, Angular). Delivered dashboards for Prudential Indonesia projects, increasing productivity and usability.
+
+Podobeli Digital Indonesia (Bogor, 2019)
+Junior Fullstack Developer – Built marketplace systems with PHP, MySQL, and Bootstrap. Created responsive designs and efficient admin dashboards.
+
+PT MRT Jakarta (Internship, 2018)
+Junior Software Engineer – Developed internal Laravel apps for document tracking and guest management, improving workflow transparency.
+
+
+linkedin detail
+
+Dendy Sapto Adi
+Fullstack Developer | We don’t build sites, we build profits. | Now open for collaborations
+
+Jawa Barat, Indonesia  Informasi kontak
+2.180 pengikut 
+500+ koneksi
+
+Sumber Informasi
+Terbuka untuk bekerja
+Peran Frontend Developer, Senior Frontend Developer, Senior Programmer, Angular Developer dan Full-stack Developer
+
+TentangTentang
+I’m a Freelance IT Consultant and Senior Frontend Engineer with over 7 years of experience helping companies build scalable, high-performing digital systems. I focus on turning complex technical challenges into solutions that drive real business growth.
+
+My work spans SaaS platforms, CRM automation, and data-driven web applications built with modern architecture, speed, and scalability in mind. I value structured code, clear communication, and collaborative teamwork to deliver products that perform consistently and profitably.
+
+I believe technology should do more than look good, it should create measurable impact. I’m open to working with global clients who need someone who can think strategically, lead confidently, and get things done.

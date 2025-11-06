@@ -1,0 +1,245 @@
+{
+  "personal": {
+    "name": "Dendy Sapto Adi",
+    "title": "Fullstack Developer",
+    "subtitle": "We don't build sites, we build profits.",
+    "summary": "With over 7 years of experience, I specialize in frameworks like NextJS, Angular, and React. I am passionate about web and mobile design and thrive on improving my skills and solving complex problems. As a strong communicator, I work effectively with clients and team members, and my fluency in English ensures clear and effective communication.",
+    "about": "I'm a Freelance IT Consultant and Senior Frontend Engineer with over 7 years of experience helping companies build scalable, high-performing digital systems. I focus on turning complex technical challenges into solutions that drive real business growth.\n\nMy work spans SaaS platforms, CRM automation, and data-driven web applications built with modern architecture, speed, and scalability in mind. I value structured code, clear communication, and collaborative teamwork to deliver products that perform consistently and profitably.\n\nI believe technology should do more than look good, it should create measurable impact. I'm open to working with global clients who need someone who can think strategically, lead confidently, and get things done.",
+    "location": "Jawa Barat, Indonesia",
+    "status": "Open for collaborations",
+    "roles": [
+      "Frontend Developer",
+      "Senior Frontend Developer",
+      "Senior Programmer",
+      "Angular Developer",
+      "Full-stack Developer"
+    ],
+    "stats": {
+      "yearsExperience": "7+",
+      "happyClients": "50+",
+      "projectsCompleted": "100+"
+    },
+    "languages": ["English", "Indonesian"]
+  },
+  "contact": {
+    "phone": "+62 896-0258-9896",
+    "email": "dendysaptoadi160@gmail.com",
+    "linkedin": "https://linkedin.com/in/dendysaptoadi",
+    "github": "https://github.com/xhendpibero",
+    "website": ""
+  },
+  "experience": [
+    {
+      "id": "torre-ai",
+      "year": "Jun 2025 – Present",
+      "title": "Product Engineer",
+      "company": "Torre.ai",
+      "location": "Remote, California, USA",
+      "type": "Remote",
+      "product": "Subtorres (Nuxt4, Scala, Redis)",
+      "description": "Developed and launched a new user-generated content (UGC) page with a load time of less than 200 ms, improving the user experience and SEO performance through schema optimization and CDN-based asset delivery. Optimized performance of legacy front-end code through targeted CSS and layout improvements, leading to faster rendering, reduced blocking time, and improved overall Core Web Vitals. Implemented advanced SEO strategies and managed Google Search Console with schema markup, internal linking, and Cloudinary image optimization to increase organic visibility and keyword ranking. Designed scalable and modular web applications for Emma, the AI recruitment platform, using Vue.js, Nuxt, and SolidJS to support microfrontend integration and enterprise-grade performance. Collaborated with cross-functional teams to debug, troubleshoot, and optimize backend APIs, ensuring high-quality deliverables, consistent code standards, and production stability across environments."
+    },
+    {
+      "id": "oca-indonesia",
+      "year": "Mar 2022 – Mar 2025",
+      "title": "Senior Frontend Engineer (SFE)",
+      "company": "OCA Indonesia by Telkom",
+      "location": "Gambir, Central Jakarta",
+      "type": "Fulltime",
+      "product": "OCA AI (Angular 19)",
+      "description": "Led the frontend development of the Chatbot AI, culminating in the successful deployment of version 2.0 to production. Enhanced functionality and security, resulting in a 90% reduction in operational costs and a 10x increase in speed through updates, new features, and bug fixes. Developed advanced features such as push notifications, PDF/XLSX report downloads, and interactive elements using Intro.js and Rappid.js for a canvas editor. Achieved 100% test coverage using Karma-Angular testing, ensuring robust and reliable code with AI Plus integrated with Telkom LLM, expanding its functionality and quality.",
+      "clients": [
+        {
+          "name": "Dashboard Monitoring",
+          "description": "Developed 8 dashboard and advanced features such as Chart.JS, PDF/XLSX report downloads. Achieved ±95% test coverage using Karma-Angular testing, ensuring robust and reliable code."
+        }
+      ]
+    },
+    {
+      "id": "indivara-group",
+      "year": "Apr 2022 – Nov 2022",
+      "title": "Technical Product Specialist (Fullstack)",
+      "company": "Indivara Group",
+      "location": "Kelapa Gading, North Jakarta",
+      "type": "Fulltime",
+      "techstack": "React and Java",
+      "description": "Managed internal applications with TypeScript, React, and Java, focusing on creating a highly responsive and user-friendly interface to enhance client interactions and user experience.",
+      "clients": [
+        {
+          "name": "United Overseas Bank Limited (UOB) Singapore - Wealth Management System",
+          "description": "Managed internal applications with TypeScript, React, and Java, focusing on creating a highly responsive and user-friendly interface to enhance client interactions and user experience."
+        },
+        {
+          "name": "Buysmart Summarecon Dashboard - Admin Console Development",
+          "description": "Designed applications for the Buysmart Summarecon e-commerce platform using Softslate, ZKoss, and PostgreSQL, increasing user engagement by 50%."
+        },
+        {
+          "name": "Peraa Dashboard - Admin Console Integration",
+          "description": "Developed a comprehensive admin console using the ZKoss Java Framework. Ensured seamless integration and efficient data management to support smooth operational workflows."
+        }
+      ]
+    },
+    {
+      "id": "barito-technologies",
+      "year": "Sep 2019 – Apr 2022",
+      "title": "Associate Software Engineer (Frontend)",
+      "company": "Barito Technologies Group",
+      "location": "Grogol Petamburan, West Jakarta",
+      "type": "Fulltime",
+      "techstack": "React, React Native, Angular",
+      "description": "Developed multiple products and client applications using modern frontend technologies.",
+      "products": [
+        {
+          "name": "Tenant Dashboard - Admin Console for Cakram Omnichannel",
+          "description": "Developed an admin console using React and Prisma, focusing on creating a responsive and intuitive user interface."
+        },
+        {
+          "name": "Cakram Omnichannel - Mobile App CRM Software",
+          "description": "Development of a mobile CRM application using React Native and implemented responsive design principles."
+        }
+      ],
+      "clients": [
+        {
+          "name": "PT. Prudential Life Assurance, PULSE - Mobile App",
+          "description": "Managed and developed a mobile application using React Native, improving project delivery speed by 2x through effective use of Scrum methodology for flexible task management. Contributed to the development of a complex mobile B2B lead management application, resulting in a 40% increase in lead conversion rates."
+        },
+        {
+          "name": "PT. Prudential Life Assurance, Pruleads Indonesia - Mobile App",
+          "description": "Developed a mobile app using Ionic Framework (React.js), focusing on enhancing user interaction and functionality. Ensured responsive design and cross-platform compatibility, with feature Charts, Download Reports in PDF."
+        },
+        {
+          "name": "PT. Prudential Life Assurance, PULSEHub - Admin Console for PULSE",
+          "description": "Developed an admin console using AngularJS, optimizing data handling and user interface design. Added advanced features to streamline administrative tasks and improve efficiency by 15%."
+        },
+        {
+          "name": "PT. Prudential Life Assurance, PRUHub - Admin Console for PRULeads",
+          "description": "Developed an admin console using AngularJS and Bootstrap, enhancing data management and user interface functionality, creating a seamless UI/UX with responsive design, improving efficiency by 20%."
+        }
+      ]
+    },
+    {
+      "id": "podobeli",
+      "year": "May 2019 – Oct 2019",
+      "title": "Junior Software Programmer (Fullstack)",
+      "company": "Podobeli Djital Indonesia",
+      "location": "Gunung Putri, Bogor",
+      "type": "Fulltime",
+      "product": "Podobeli ID - Marketplace (CodeIgniter)",
+      "description": "Developed a comprehensive marketplace website and its admin console using PHP, MySQL, JavaScript, CSS, and HTML with a responsive design based on Bootstrap."
+    },
+    {
+      "id": "mrt-jakarta",
+      "year": "Feb 2018 – May 2018",
+      "title": "Junior Software Engineer (Internship)",
+      "company": "PT. Mass Rapid Transit Jakarta",
+      "location": "Menteng, Central Jakarta",
+      "type": "Internship",
+      "techstack": "Laravel",
+      "description": "Developed internal applications and provided support for web systems.",
+      "projects": [
+        {
+          "name": "Guest Book Application",
+          "description": "Developed a digital guest book system using Vanilla PHP and Bootstrap to record and schedule meetings, improving visitor management efficiency."
+        },
+        {
+          "name": "PPTracking Application",
+          "description": "Assisted in developing an application for tracking procurement documents between divisions using Laravel, enhancing document management and workflow."
+        },
+        {
+          "name": "Internal Web Support",
+          "description": "Provided support for internal web applications, ensuring smooth operation and user satisfaction."
+        }
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "id": "lifebonder",
+      "title": "LifeBonder",
+      "client": "LifeBonder",
+      "image": "/images/work/work-img-1.jpg",
+      "slug": "lifebonder",
+      "period": "Jan 2025 – Present",
+      "role": "Angular Developer Specialist (Fullstack)",
+      "location": "Remote, Denmark",
+      "description": "Led the development of an initial admin dashboard using Angular with NG-Zorro and C#.NET, improving the user interface and functionality. Implemented interceptors and route rules to enhance page security, effectively preventing unauthorized access, and ensuring data protection."
+    },
+    {
+      "id": "tako",
+      "title": "Tako",
+      "client": "Tako",
+      "image": "/images/work/work-img-2.jpg",
+      "slug": "tako",
+      "period": "Jul 2023 – Nov 2024",
+      "role": "Full-stack Developer (React, NextJS)",
+      "location": "Remote, Tangerang",
+      "description": "Using Next.js to build fast, scalable, and SEO-friendly front-end applications, ensuring a seamless user experience. Optimized back-end systems, implementing GraphQL APIs for efficient data management and API integrations. Managed Figma designs into functional and user-friendly features, enhancing the overall user interface. Engaged with cross-functional teams using Lark to ensure effective communication and project alignment."
+    }
+  ],
+  "education": [
+    {
+      "id": "smkn-24",
+      "title": "SMKN 24 Jakarta - 2016-2019",
+      "degree": "Diploma of Software Engineers",
+      "description": "Web Development; Mobile App Development"
+    },
+    {
+      "id": "womanium",
+      "title": "Womanium Quantum Computing - 2023-2024",
+      "degree": "Diploma of Quantum Computing",
+      "description": "Quantum Computing; Quantum Programming"
+    }
+  ],
+  "skills": {
+    "webFrontend": [
+      { "name": "Angular", "rating": 5 },
+      { "name": "React", "rating": 5 },
+      { "name": "Nuxt", "rating": 5 },
+      { "name": "NextJS", "rating": 5 },
+      { "name": "SolidJS", "rating": 4 }
+    ],
+    "mobileFrontend": [
+      { "name": "React Native", "rating": 5 },
+      { "name": "Ionic", "rating": 4 },
+      { "name": "Flutter", "rating": 3 }
+    ],
+    "languages": [
+      { "name": "Javascript", "rating": 5 },
+      { "name": "Python", "rating": 4 },
+      { "name": "PHP", "rating": 4 },
+      { "name": "Scala", "rating": 3 },
+      { "name": "VB/C#.Net", "rating": 4 }
+    ],
+    "uiux": [
+      { "name": "Figma", "rating": 5 },
+      { "name": "Framer", "rating": 4 },
+      { "name": "Web Flow", "rating": 3 },
+      { "name": "Adobe XD", "rating": 4 }
+    ],
+    "testing": [
+      { "name": "Pytest", "rating": 4 },
+      { "name": "Docker", "rating": 4 },
+      { "name": "CircleCI", "rating": 3 },
+      { "name": "Jenkins", "rating": 3 },
+      { "name": "Karma", "rating": 5 }
+    ],
+    "infrastructure": [
+      { "name": "Github", "rating": 5 },
+      { "name": "Gitlab", "rating": 4 },
+      { "name": "AWS", "rating": 4 },
+      { "name": "Azure", "rating": 3 },
+      { "name": "Self-Hosting", "rating": 4 }
+    ]
+  },
+  "certifications": [
+    "BNSP Certificate of Competence",
+    "QCobalt Diploma of Quantum Annealing",
+    "Classiq Certified Complete Challenge",
+    "Pennylane Certified Complete Challenge",
+    "QBronze Diploma of Quantum Computing",
+    "QMercury Diploma of Quantum Key Distribution",
+    "QZinc Diploma of Quantum Error Correction",
+    "QNickel Diploma of Quantum Computing & Programming"
+  ]
+}
+
